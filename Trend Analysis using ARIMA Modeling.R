@@ -22,7 +22,7 @@ acf(vaccine_weekly_India$Total.Individuals.Vaccinated,main="Correlogram")   #Cor
 
 #Check for the presence of Trend
 windows(width=8, height=6)
-barplot(vaccine_weekly_India$Total.Individuals.Vaccinated~vaccine_weekly_India$ï..Weeks,xlab = "Weeks",ylab = "Vaccinated (Weekly)",main="Determination of Trend by Moing Avg.(Period 2)",col="green")   #Bar Plot on Vaccination vs Weeks 
+barplot(vaccine_weekly_India$Total.Individuals.Vaccinated~vaccine_weekly_India$Ã¯..Weeks,xlab = "Weeks",ylab = "Vaccinated (Weekly)",main="Determination of Trend by Moing Avg.(Period 2)",col="green")   #Bar Plot on Vaccination vs Weeks 
 lines(vaccine_weekly_India$Total.Individuals.Vaccinated,col="blue",lw=3)
 legend("topleft", 
        legend = c("Bars","Moving Avg.(Period 2)"), 
@@ -81,7 +81,7 @@ smaval=sma(DF_vaccine_weekly$y,h=23)
 
 plot(predmodel)
 #Analysis of the data
-DF_vaccine_weekly = data.frame(x=vaccine_weekly_India$ï..Weeks,y=(vaccine_weekly_India$Total.Individuals.Vaccinated)/1000000)   #Minimized digits by /1000000(Millions)
+DF_vaccine_weekly = data.frame(x=vaccine_weekly_India$Ã¯..Weeks,y=(vaccine_weekly_India$Total.Individuals.Vaccinated)/1000000)   #Minimized digits by /1000000(Millions)
 summary(DF_vaccine_weekly)
 cor.test(DF_vaccine_weekly$y,DF_vaccine_weekly$x,method = "pearson")
 
