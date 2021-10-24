@@ -1,2 +1,4 @@
 # Time-Series-Analysis-in-RStudio
 Time  Series  Analysis and Forecasting on  the  Covid-19 Vaccination in  India (Using RStudio) 
+
+  In  this  study,  Time  Series  Analysis  has  been  done  to  get  prefect  prediction(s)  on the  no.  of  Covid-Vaccination  (weekly)  in  India.  Here,  Trend  Analysis  has  been  applied  to  get  an ideal  mathematical  model  to  reach  on  conclusion  about  Weekly  Vaccination  for  COVID-19.  We have  used  two  relevant  Statistical  Softwares  i.e.  RStudio  and  MiniTab  to  find  plots  of  the  fitted model,  Total  Vaccination,  Total  Doses  Registered,  Covaxin,  CoviShield,  and  others,  Forecasting about  Vaccination  (weekly).  This  statistical  precise  calculation  may  be  useful  to  predict  actual data  of  the  above  mentioned  variable  so  that  government  can  allot  the  required  demand  of vaccines  and  doctors  could  give  proper  service  for  the  rest  of  the  people.
